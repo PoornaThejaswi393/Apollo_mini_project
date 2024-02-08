@@ -6,6 +6,7 @@ const currentTime = document.querySelector("h1"),
   alarmGif = document.getElementById('alarmGif');
 let alarmTime, isAlarmSet,
   ringtone = new Audio("https://github.com/PoornaThejaswi393/Apollo_mini_project/blob/main/alarm_sound.mp3?raw=true");
+  audio.play();
 for (let i = 12; i > 0; i--) {
   i = i < 10 ? `0${i}` : i;
   let option = `<option value="${i}">${i}</option>`;
